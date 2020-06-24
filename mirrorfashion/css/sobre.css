@@ -1,64 +1,59 @@
 body	{
-			color: #333333;
-			font-family: "Lucida	Sans	Unicode",	"Lucida	Grande",	sans-serif;
-			padding: 10px 20px 15px 5px;
-			margin-left:	auto;
-			margin-right:	auto;
-			width: 940px;
-			
+    color: #333333;
+    font-family: "Lucida Sans Unicode",	"Lucida	Grande", sans-serif;
+    margin-left:	auto;
+    margin-right:	auto;
+    width: 940px;
+}
+
+h1	{
+    background-image:	url(../img/sobre-background.jpg);
+    padding: 10px;
+
+}
+h2	{
+    border-bottom: 2px	solid	#333333;
+    margin-top: 30px;
 }
 
 p	{
-		padding: 0 45px;
-		text-indent: 15px;
-	}
+    padding: 0 45px;
+    text-indent: 15px;
+}
 
-h1	{
-		background-image:	url(C:/Users/Guilherme/Documents/Unigranrio/Disciplinas/2020-1/EIN394-01 Frameworks de Desenvolvimento de Aplicacoes Web/mirror-fashion-master/mirrorfashion/img/sobre-background.jpg);
-		collor: red;
-		padding: 10px;
-	}
-h2	{
-		border-bottom: 2px	solid	#333333;
-		background-color: 	#F6FFFF;
-		padding: 15px;
-		margin-top: 30px;	
-	}
-	figure	{
-			background-color: #F2EDED;
-			border: 1px	solid	#ccc;
-			text-align:	center;
-			}
+figure	{
+    background-color: #F2EDED;
+    border: 1px	solid	#ccc;
+    text-align:	center;
+    padding: 15px;
+    margin: 30px;
+}
 figcaption	{
-			font-style:	italic;
-			margin-top: 10px;
-
-#cabecalho	{
-			color:	white;
-			text-align:	center;
-			}
-			
-#rodape img	{
-			margin-right: 30px;
-			vertical-align:	middle;
-			width: 94px;
-			}
+    font-style:	italic;
+    margin-top: 10px;
+}
 
 #centro-distribuicao	{
-			margin-left:	auto;
-			margin-right:	auto;
-			width: 550px;
-			}
+    margin-left:	auto;
+    margin-right:	auto;
+    width: 550px;
+}
 
 #rodape	{
-		color: #777;
-		margin: 30px 0;
-		padding: 30px 0;
-		}
+    color: #777;
+    margin: 30px 0;
+    padding: 30px 0;
+}
+#rodape img	{
+    margin-right: 30px;
+    vertical-align:	middle;
+    width: 94px;
+}
+
 #familia-pelho	{
-			float:	right;
-			margin: 0 0 10px 10px;
-	 			}
+    float:	right;
+    margin: 0 0 10px 10px;
+}
 
 /*  estilos rodapé */
 
@@ -68,7 +63,7 @@ figcaption	{
 }
 
 footer  {           
-    background-image:   url(C:/Users/Guilherme/Documents/Unigranrio/Disciplinas/2020-1/EIN394-01 Frameworks de Desenvolvimento de Aplicacoes Web/mirror-fashion-master/mirrorfashion//img/fundo-rodape.png);   
+    background-image:   url(../img/fundo-rodape.png);   
     clear:  both;
     padding: 20px 0;
 }
@@ -87,15 +82,15 @@ footer .container   {
 }
 
 .social a[href*="facebook.com"] {           
-    background-image: url(C:/Users/Guilherme/Documents/Unigranrio/Disciplinas/2020-1/EIN394-01 Frameworks de Desenvolvimento de Aplicacoes Web/mirror-fashion-master/mirrorfashion//img/facebook.png); 
+    background-image: url(../img/facebook.png); 
 }
 
 .social a[href*="twitter.com"]  {           
-    background-image: url(C:/Users/Guilherme/Documents/Unigranrio/Disciplinas/2020-1/EIN394-01 Frameworks de Desenvolvimento de Aplicacoes Web/mirror-fashion-master/mirrorfashion//img/twitter.png);  
+    background-image: url(../img/twitter.png);  
 }
 
 .social a[href*="plus.google.com"]  {           
-    background-image: url(C:/Users/Guilherme/Documents/Unigranrio/Disciplinas/2020-1/EIN394-01 Frameworks de Desenvolvimento de Aplicacoes Web/mirror-fashion-master/mirrorfashion//img/googleplus.png);
+    background-image: url(../img/googleplus.png);
 }
 
 .social {           
